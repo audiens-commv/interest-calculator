@@ -12,6 +12,7 @@ module.exports = {
     ecmaVersion: 'latest',
   },
   rules: {
+    'no-console': 'warn',
   },
   overrides: [
     {
@@ -23,7 +24,7 @@ module.exports = {
       ],
       plugins: ['jest'],
       rules: {
-        'jest/no-disabled-tests': 'error',
+        'jest/no-disabled-tests': 'warn',
         'jest/no-focused-tests': 'error',
         'jest/no-identical-title': 'error',
         'jest/prefer-to-have-length': 'warn',

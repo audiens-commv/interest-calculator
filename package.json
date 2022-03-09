@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "jest",
     "lint": "./node_modules/.bin/eslint ./tests/*.js ./lib/*.js ./*.js"
   },
